@@ -5,7 +5,7 @@ date: "For Week 2 commencing 14 Feb 2022"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
+url: https://cal20212022.github.io/cal_01_lex_dec_edits/
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
   This is a minimal example of using the bookdown package to write a book.
