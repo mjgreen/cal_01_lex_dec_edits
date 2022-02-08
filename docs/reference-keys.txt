@@ -1,2 +1,5 @@
 about
-change-colours
+colours
+stimulus-duration
+feedback
+ending

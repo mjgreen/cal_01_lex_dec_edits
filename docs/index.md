@@ -1,7 +1,8 @@
 --- 
 title: "CaL Lexical Decision Task Edits"
+subtitle: "for week 2"
 author: "CaL Teaching Team"
-date: "For Week 2 commencing 14 Feb 2022"
+date: "Tuesday 08 February 2022 at 13:55:44"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -22,11 +23,13 @@ file.copy('LexDecTaskCopy.psyexp', 'docs/LexDecTaskCopy.psyexp', overwrite = TRU
 
 # About
 
-This site explains the student challenges for the lexical decision task
+This site explains the student challenges for the lexical decision task.
 
-1. Download a copy of the PsychoPy experiment called [LexDecTaskCopy.psyexp](./LexDecTaskCopy.psyexp)
+* First, download a copy of the PsychoPy experiment at this link
+  * [**LexDecTaskCopy.psyexp**](./LexDecTaskCopy.psyexp)
 
-1. Change the screen colour to white, and the text colour to black, throughout the experiment
-2. Increase the stimulus duration from 3 to 5 seconds
-3. Turn off feedback in the experimental (but not the practice) block.
-3. At the end, instead of having the participant press a key to end the experiment, make the experiment finish automatically after 2 seconds
+* Then, complete the challenges, which are:
+  1. Change the screen colour to white, and the text colour to black, throughout the experiment
+  2. Increase the stimulus duration from 3 to 5 seconds
+  3. Turn off feedback in the experimental (but not the practice) block.
+  4. At the end, instead of having the participant press a key to end the experiment, make the experiment finish automatically after 2 seconds
