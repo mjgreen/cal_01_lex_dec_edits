@@ -6,15 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 2 Colours | CaL Lexical Decision Task Edits</title>
 <meta name="author" content="CaL Teaching Team">
-<meta name="description" content="This is for the student challenges for editing the lexical decision task experiment.">
+<meta name="description" content="Change the screen colour to white, and the text colour to black, throughout the experiment. There are two things you need to do to accomplish this.  2.1 Change the screen colour to white By...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
 <meta property="og:title" content="Chapter 2 Colours | CaL Lexical Decision Task Edits">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://cal20212022.github.io/cal_01_lex_dec_edits/colours.html">
-<meta property="og:description" content="This is for the student challenges for editing the lexical decision task experiment.">
+<meta property="og:description" content="Change the screen colour to white, and the text colour to black, throughout the experiment. There are two things you need to do to accomplish this.  2.1 Change the screen colour to white By...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 2 Colours | CaL Lexical Decision Task Edits">
-<meta name="twitter:description" content="This is for the student challenges for editing the lexical decision task experiment.">
+<meta name="twitter:description" content="Change the screen colour to white, and the text colour to black, throughout the experiment. There are two things you need to do to accomplish this.  2.1 Change the screen colour to white By...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -57,14 +57,47 @@
 <h1>
 <span class="header-section-number">2</span> Colours<a class="anchor" aria-label="anchor" href="#colours"><i class="fas fa-link"></i></a>
 </h1>
+<p>Change the screen colour to white, and the text colour to black, throughout the experiment.</p>
+<p>There are two things you need to do to accomplish this.</p>
+<div id="change-the-screen-colour-to-white" class="section level2" number="2.1">
+<h2>
+<span class="header-section-number">2.1</span> Change the screen colour to white<a class="anchor" aria-label="anchor" href="#change-the-screen-colour-to-white"><i class="fas fa-link"></i></a>
+</h2>
+<p>By default, PsychoPy uses a grey background. In the Lexical Decision Task we used a black background. You can access the screen colour property from the cog wheel symbol:</p>
+<div class="inline-figure"><img src="images/cog-wheel.png" style="width:100.0%"></div>
+<div class="inline-figure"><img src="images/cog-wheel2.png" style="width:100.0%"></div>
+<p>then the <code>Screen</code> tab’s <code>Color</code> property:</p>
+<div class="inline-figure"><img src="images/cog-wheel3.png" style="width:100.0%"></div>
+<div class="inline-figure"><img src="images/cog-wheel4.png" style="width:100.0%"></div>
+<p>Now that you have chosen white as the background, you need to save the experiment using the conventional save button:</p>
+<div class="inline-figure"><img src="images/save_button.png" style="width:100.0%"></div>
+</div>
+<div id="change-the-text-colour-to-black" class="section level2" number="2.2">
+<h2>
+<span class="header-section-number">2.2</span> Change the text colour to black<a class="anchor" aria-label="anchor" href="#change-the-text-colour-to-black"><i class="fas fa-link"></i></a>
+</h2>
+<p>By default, Psychopy uses white text against a grey background. Now that you have changed the screen colour to white, all the text that is white in colour will be invisible. So you need to change the text colour to black. There isn’t an experiment-wide place to change the colour of text: text colour is a property of each individual text component.</p>
+<p>A text component looks like a red T:</p>
+<div class="inline-figure"><img src="images/redT.png" style="width:25.0%"></div>
+<p>You need to go through each of the routines to find where the text boxes are: here we click on the <code>intro</code> routine in the <code>Flow</code> pane at the bottom of the interface, and its text box:</p>
+<div class="inline-figure"><img src="images/textComponent1.png" style="width:100.0%"></div>
+<div class="inline-figure"><img src="images/textComponent2.png" style="width:100.0%"></div>
+<p>The <code>Appearance</code>tab is where you can specify properties of this particular text box; and one of those properties is its<code>Foreground Color</code></p>
+<div class="inline-figure"><img src="images/textComponent3.png" style="width:100.0%"></div>
+<p>You need to go through all the routines looking for text boxes that currently display white text, and change them to display black text.</p>
 
+</div>
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="index.html"><span class="header-section-number">1</span> About</a></div>
 <div class="next"><a href="stimulus-duration.html"><span class="header-section-number">3</span> Stimulus duration</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#colours"><span class="header-section-number">2</span> Colours</a></li></ul>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#colours"><span class="header-section-number">2</span> Colours</a></li>
+<li><a class="nav-link" href="#change-the-screen-colour-to-white"><span class="header-section-number">2.1</span> Change the screen colour to white</a></li>
+<li><a class="nav-link" href="#change-the-text-colour-to-black"><span class="header-section-number">2.2</span> Change the text colour to black</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
@@ -80,7 +113,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>CaL Lexical Decision Task Edits</strong>: for week 2" was written by CaL Teaching Team. It was last built on Tuesday 08 February 2022 at 13:55:44.</p>
+    <p>"<strong>CaL Lexical Decision Task Edits</strong>: for week 2" was written by CaL Teaching Team. It was last built on Wednesday 09 February 2022 at 12:19:17.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
