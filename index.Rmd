@@ -1,7 +1,7 @@
 --- 
 title: "CaL Lexical Decision Task Edits"
 subtitle: "for week 2"
-author: "CaL Teaching Team"
+author: "the CaL Teaching Team"
 date: "`r format(Sys.time(), '%A %d %B %Y at %X')`"
 site: bookdown::bookdown_site
 documentclass: book

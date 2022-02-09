@@ -1,8 +1,8 @@
 --- 
 title: "CaL Lexical Decision Task Edits"
 subtitle: "for week 2"
-author: "CaL Teaching Team"
-date: "Wednesday 09 February 2022 at 12:59:51"
+author: "the CaL Teaching Team"
+date: "Wednesday 09 February 2022 at 13:06:10"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
