@@ -2,7 +2,7 @@
 title: "CaL Lexical Decision Task Edits"
 subtitle: "for week 2"
 author: "CaL Teaching Team"
-date: "Wednesday 09 February 2022 at 12:19:17"
+date: "Wednesday 09 February 2022 at 12:59:51"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -24,6 +24,8 @@ file.copy('LexDecTaskCopy.zip', 'docs/LexDecTaskCopy.zip', overwrite = TRUE)
 # About
 
 This site explains the student challenges for the lexical decision task.
+
+Make sure you have installed `PsychoPy` on your own computer from this link before attempting the challenges: [**PsychoPy download**](https://www.psychopy.org/download.html) 
 
 ::: {.rmdnote}
 * First, download a copy of the PsychoPy experiment at this link

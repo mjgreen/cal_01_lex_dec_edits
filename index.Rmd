@@ -23,6 +23,8 @@ file.copy('LexDecTaskCopy.zip', 'docs/LexDecTaskCopy.zip', overwrite = TRUE)
 
 This site explains the student challenges for the lexical decision task.
 
+Make sure you have installed `PsychoPy` on your own computer from this link before attempting the challenges: [**PsychoPy download**](https://www.psychopy.org/download.html) 
+
 ::: {.rmdnote}
 * First, download a copy of the PsychoPy experiment at this link
   * [**LexDecTaskCopy.zip**](./LexDecTaskCopy.zip)
