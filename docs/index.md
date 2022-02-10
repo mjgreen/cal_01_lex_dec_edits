@@ -2,7 +2,7 @@
 title: "CaL Lexical Decision Task Edits"
 subtitle: "for week 2"
 author: "the CaL Teaching Team"
-date: "Wednesday 09 February 2022 at 13:06:10"
+date: "Thursday 10 February 2022 at 22:35:08"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -25,10 +25,12 @@ file.copy('LexDecTaskCopy.zip', 'docs/LexDecTaskCopy.zip', overwrite = TRUE)
 
 This site explains the student challenges for the lexical decision task.
 
+::: {.rmdnote}
 Make sure you have installed `PsychoPy` on your own computer from this link before attempting the challenges: [**PsychoPy download**](https://www.psychopy.org/download.html) 
+:::
 
 ::: {.rmdnote}
-* First, download a copy of the PsychoPy experiment at this link
+* Download a copy of the PsychoPy experiment at this link
   * [**LexDecTaskCopy.zip**](./LexDecTaskCopy.zip)
   
 * Extract the files from that zip folder (right click -> extract all on Windows)
@@ -39,7 +41,7 @@ Make sure you have installed `PsychoPy` on your own computer from this link befo
 :::
 
 ::: {.rmdnote}
-* Then, complete the challenges, which are:
+* Complete the challenges, which are:
   1. Change the screen colour to white, and the text colour to black, throughout the experiment
   2. Increase the stimulus duration from 3 to 5 seconds
   3. Turn off feedback in the experimental (but not the practice) block.
