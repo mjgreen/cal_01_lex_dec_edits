@@ -6,15 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 4 Feedback | CaL Lexical Decision Task Edits</title>
 <meta name="author" content="the CaL Teaching Team">
-<meta name="description" content="Turn off feedback in the experimental (but not the practice) block. The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code component. Click on the code...">
+<meta name="description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
 <meta property="og:title" content="Chapter 4 Feedback | CaL Lexical Decision Task Edits">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://cal20212022.github.io/cal_01_lex_dec_edits/feedback.html">
-<meta property="og:description" content="Turn off feedback in the experimental (but not the practice) block. The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code component. Click on the code...">
+<meta property="og:description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Chapter 4 Feedback | CaL Lexical Decision Task Edits">
-<meta name="twitter:description" content="Turn off feedback in the experimental (but not the practice) block. The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code component. Click on the code...">
+<meta name="twitter:description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -59,6 +59,10 @@
 <div class="rmdnote">
 <p>Turn off feedback in the experimental (but not the practice) block.</p>
 </div>
+<div id="turn-off-feedback" class="section level2" number="4.1">
+<h2>
+<span class="header-section-number">4.1</span> Turn off feedback<a class="anchor" aria-label="anchor" href="#turn-off-feedback"><i class="fas fa-link"></i></a>
+</h2>
 <p>The routine that contains the feedback is <code>trial_feedback</code>.</p>
 <div class="inline-figure"><img src="images/feedback0.png" style="width:100.0%"></div>
 <p>Click on <code>trial_feedback</code>.</p>
@@ -68,19 +72,39 @@
 <div class="inline-figure"><img src="images/feedback1.png" style="width:100.0%"></div>
 <p>Put your cursor in the first line of the left hand side.</p>
 <p>Type:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="feedback.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> phase <span class="sc">==</span> <span class="st">"practice"</span><span class="sc">:</span></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="feedback.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> phase <span class="sc">==</span> <span class="st">"experimental"</span><span class="sc">:</span></span>
 <span id="cb2-2"><a href="feedback.html#cb2-2" aria-hidden="true" tabindex="-1"></a>   continueRoutine <span class="ot">=</span> False</span></code></pre></div>
 <p>So that the <code>code</code> component looks like this:</p>
 <div class="inline-figure"><img src="images/feedback2.png" style="width:100.0%"></div>
+</div>
+<div id="save-the-experiment-2" class="section level2" number="4.2">
+<h2>
+<span class="header-section-number">4.2</span> Save the experiment<a class="anchor" aria-label="anchor" href="#save-the-experiment-2"><i class="fas fa-link"></i></a>
+</h2>
 <p>Save the experiment.</p>
+<div class="inline-figure"><img src="images/save_button.png" style="width:100.0%"></div>
+</div>
+<div id="run-the-experiment-2" class="section level2" number="4.3">
+<h2>
+<span class="header-section-number">4.3</span> Run the experiment<a class="anchor" aria-label="anchor" href="#run-the-experiment-2"><i class="fas fa-link"></i></a>
+</h2>
+<p>Run the experiment to see whether your changes worked.</p>
+<p>You can press <code>escape</code> after a few trials if you don’t need to run the whole experiment.</p>
+<div class="inline-figure"><img src="images/run_button.png" style="width:100.0%"></div>
 
+</div>
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="stimulus-duration.html"><span class="header-section-number">3</span> Stimulus duration</a></div>
 <div class="empty"></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#feedback"><span class="header-section-number">4</span> Feedback</a></li></ul>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#feedback"><span class="header-section-number">4</span> Feedback</a></li>
+<li><a class="nav-link" href="#turn-off-feedback"><span class="header-section-number">4.1</span> Turn off feedback</a></li>
+<li><a class="nav-link" href="#save-the-experiment-2"><span class="header-section-number">4.2</span> Save the experiment</a></li>
+<li><a class="nav-link" href="#run-the-experiment-2"><span class="header-section-number">4.3</span> Run the experiment</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
@@ -96,7 +120,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>CaL Lexical Decision Task Edits</strong>: for week 2" was written by the CaL Teaching Team. It was last built on Sunday 13 February 2022 at 12:37:02.</p>
+    <p>"<strong>CaL Lexical Decision Task Edits</strong>: for week 2" was written by the CaL Teaching Team. It was last built on Sunday 13 February 2022 at 13:02:49.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

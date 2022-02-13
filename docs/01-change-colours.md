@@ -44,4 +44,16 @@ The `Appearance`tab is where you can specify properties of this particular text 
 
 You need to go through all the routines looking for text boxes that currently display white text, and change them to display black text.
 
+## Save the experiment
+
 Save the experiment.
+
+![](images/save_button.png){width="100%"}
+
+## Run the experiment
+
+Run the experiment to see whether your changes worked.
+
+You can press `escape` after a few trials if you don't need to run the whole experiment.
+
+![](images/run_button.png){width="100%"}

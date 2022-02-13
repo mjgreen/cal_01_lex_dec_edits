@@ -2,5 +2,13 @@ about
 colours
 change-the-screen-colour-to-white
 change-the-text-colour-to-black
+save-the-experiment
+run-the-experiment
 stimulus-duration
+change-the-stimulus-duration
+save-the-experiment-1
+run-the-experiment-1
 feedback
+turn-off-feedback
+save-the-experiment-2
+run-the-experiment-2
