@@ -1,133 +1,269 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="" xml:lang="">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 4 Feedback | CaL Lexical Decision Task Edits</title>
-<meta name="author" content="the CaL Teaching Team">
-<meta name="description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
-<meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 4 Feedback | CaL Lexical Decision Task Edits">
-<meta property="og:type" content="book">
-<meta property="og:url" content="https://cal20212022.github.io/cal_01_lex_dec_edits/feedback.html">
-<meta property="og:description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 4 Feedback | CaL Lexical Decision Task Edits">
-<meta name="twitter:description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
-<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
-<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Feedback | CaL Lexical Decision Task Edits</title>
+  <meta name="description" content="This is for the student challenges for editing the lexical decision task experiment." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Feedback | CaL Lexical Decision Task Edits" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://cal20212022.github.io/cal_01_lex_dec_edits/" />
+  
+  <meta property="og:description" content="This is for the student challenges for editing the lexical decision task experiment." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Feedback | CaL Lexical Decision Task Edits" />
+  
+  <meta name="twitter:description" content="This is for the student challenges for editing the lexical decision task experiment." />
+  
+
+<meta name="author" content="the CaL Teaching Team" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="stimulus-duration.html"/>
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-<body data-spy="scroll" data-target="#toc">
 
-<div class="container-fluid">
-<div class="row">
-  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+<body>
 
-    <div class="d-flex align-items-start justify-content-between">
-      <h1>
-        <a href="index.html" title="for week 2">CaL Lexical Decision Task Edits</a>:
-        <small class="text-muted">for week 2</small>
-      </h1>
-      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
-    </div>
 
-    <div id="main-nav" class="collapse-lg">
-      <form role="search">
-        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
-</form>
 
-      <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
-<li><a class="" href="colours.html"><span class="header-section-number">2</span> Colours</a></li>
-<li><a class="" href="stimulus-duration.html"><span class="header-section-number">3</span> Stimulus duration</a></li>
-<li><a class="active" href="feedback.html"><span class="header-section-number">4</span> Feedback</a></li>
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a></li>
+<li class="chapter" data-level="2" data-path="colours.html"><a href="colours.html"><i class="fa fa-check"></i><b>2</b> Colours</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="colours.html"><a href="colours.html#change-the-screen-colour-to-white"><i class="fa fa-check"></i><b>2.1</b> Change the screen colour to white</a></li>
+<li class="chapter" data-level="2.2" data-path="colours.html"><a href="colours.html#change-the-text-colour-to-black"><i class="fa fa-check"></i><b>2.2</b> Change the text colour to black</a></li>
+<li class="chapter" data-level="2.3" data-path="colours.html"><a href="colours.html#save-the-experiment"><i class="fa fa-check"></i><b>2.3</b> Save the experiment</a></li>
+<li class="chapter" data-level="2.4" data-path="colours.html"><a href="colours.html#run-the-experiment"><i class="fa fa-check"></i><b>2.4</b> Run the experiment</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="stimulus-duration.html"><a href="stimulus-duration.html"><i class="fa fa-check"></i><b>3</b> Stimulus duration</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="stimulus-duration.html"><a href="stimulus-duration.html#change-the-stimulus-duration"><i class="fa fa-check"></i><b>3.1</b> Change the stimulus duration</a></li>
+<li class="chapter" data-level="3.2" data-path="stimulus-duration.html"><a href="stimulus-duration.html#save-the-experiment-1"><i class="fa fa-check"></i><b>3.2</b> Save the experiment</a></li>
+<li class="chapter" data-level="3.3" data-path="stimulus-duration.html"><a href="stimulus-duration.html#run-the-experiment-1"><i class="fa fa-check"></i><b>3.3</b> Run the experiment</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="feedback.html"><a href="feedback.html"><i class="fa fa-check"></i><b>4</b> Feedback</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="feedback.html"><a href="feedback.html#turn-off-feedback"><i class="fa fa-check"></i><b>4.1</b> Turn off feedback</a></li>
+<li class="chapter" data-level="4.2" data-path="feedback.html"><a href="feedback.html#save-the-experiment-2"><i class="fa fa-check"></i><b>4.2</b> Save the experiment</a></li>
+<li class="chapter" data-level="4.3" data-path="feedback.html"><a href="feedback.html#run-the-experiment-2"><i class="fa fa-check"></i><b>4.3</b> Run the experiment</a></li>
+</ul></li>
 </ul>
 
-        <div class="book-extra">
-          
-        </div>
       </nav>
-</div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="feedback" class="section level1" number="4">
-<h1>
-<span class="header-section-number">4</span> Feedback<a class="anchor" aria-label="anchor" href="#feedback"><i class="fas fa-link"></i></a>
-</h1>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">CaL Lexical Decision Task Edits</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="feedback" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Feedback</h1>
 <div class="rmdnote">
 <p>Turn off feedback in the experimental (but not the practice) block.</p>
 </div>
 <div id="turn-off-feedback" class="section level2" number="4.1">
-<h2>
-<span class="header-section-number">4.1</span> Turn off feedback<a class="anchor" aria-label="anchor" href="#turn-off-feedback"><i class="fas fa-link"></i></a>
-</h2>
+<h2><span class="header-section-number">4.1</span> Turn off feedback</h2>
 <p>The routine that contains the feedback is <code>trial_feedback</code>.</p>
-<div class="inline-figure"><img src="images/feedback0.png" style="width:100.0%"></div>
+<p><img src="images/feedback0.png" style="width:100.0%" /></p>
 <p>Click on <code>trial_feedback</code>.</p>
 <p>See the <code>code</code> component.</p>
-<div class="inline-figure"><img src="images/feedback00.png" style="width:100.0%"></div>
+<p><img src="images/feedback00.png" style="width:100.0%" /></p>
 <p>Click on the <code>code</code> component..</p>
-<div class="inline-figure"><img src="images/feedback1.png" style="width:100.0%"></div>
+<p><img src="images/feedback1.png" style="width:100.0%" /></p>
 <p>Put your cursor in the first line of the left hand side.</p>
 <p>Type:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="feedback.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> phase <span class="sc">==</span> <span class="st">"experimental"</span><span class="sc">:</span></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="feedback.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> phase <span class="sc">==</span> <span class="st">&quot;experimental&quot;</span><span class="sc">:</span></span>
 <span id="cb2-2"><a href="feedback.html#cb2-2" aria-hidden="true" tabindex="-1"></a>   continueRoutine <span class="ot">=</span> False</span></code></pre></div>
 <p>So that the <code>code</code> component looks like this:</p>
-<div class="inline-figure"><img src="images/feedback2.png" style="width:100.0%"></div>
+<p><img src="images/feedback2.png" style="width:100.0%" /></p>
 </div>
 <div id="save-the-experiment-2" class="section level2" number="4.2">
-<h2>
-<span class="header-section-number">4.2</span> Save the experiment<a class="anchor" aria-label="anchor" href="#save-the-experiment-2"><i class="fas fa-link"></i></a>
-</h2>
+<h2><span class="header-section-number">4.2</span> Save the experiment</h2>
 <p>Save the experiment.</p>
-<div class="inline-figure"><img src="images/save_button.png" style="width:100.0%"></div>
+<p><img src="images/save_button.png" style="width:100.0%" /></p>
 </div>
 <div id="run-the-experiment-2" class="section level2" number="4.3">
-<h2>
-<span class="header-section-number">4.3</span> Run the experiment<a class="anchor" aria-label="anchor" href="#run-the-experiment-2"><i class="fas fa-link"></i></a>
-</h2>
+<h2><span class="header-section-number">4.3</span> Run the experiment</h2>
 <p>Run the experiment to see whether your changes worked.</p>
 <p>You can press <code>escape</code> after a few trials if you don’t need to run the whole experiment.</p>
-<div class="inline-figure"><img src="images/run_button.png" style="width:100.0%"></div>
+<p><img src="images/run_button.png" style="width:100.0%" /></p>
 
 </div>
 </div>
-  <div class="chapter-nav">
-<div class="prev"><a href="stimulus-duration.html"><span class="header-section-number">3</span> Stimulus duration</a></div>
-<div class="empty"></div>
-</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
-    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#feedback"><span class="header-section-number">4</span> Feedback</a></li>
-<li><a class="nav-link" href="#turn-off-feedback"><span class="header-section-number">4.1</span> Turn off feedback</a></li>
-<li><a class="nav-link" href="#save-the-experiment-2"><span class="header-section-number">4.2</span> Save the experiment</a></li>
-<li><a class="nav-link" href="#run-the-experiment-2"><span class="header-section-number">4.3</span> Run the experiment</a></li>
-</ul>
+            </section>
 
-      <div class="book-extra">
-        <ul class="list-unstyled">
-          
-        </ul>
-</div>
-    </nav>
-</div>
+          </div>
+        </div>
+      </div>
+<a href="stimulus-duration.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-</div>
-</div> <!-- .container -->
-
-<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
-
-  <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>CaL Lexical Decision Task Edits</strong>: for week 2" was written by the CaL Teaching Team. It was last built on Sunday 13 February 2022 at 13:02:49.</p>
+    </div>
   </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
 
-  <div class="col-12 col-md-6 mt-3">
-    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
-  </div>
-
-</div></div>
-</footer>
 </body>
+
 </html>
