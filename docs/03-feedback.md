@@ -1,10 +1,20 @@
 # Feedback
 
+::: {.rmdnote}
 Turn off feedback in the experimental (but not the practice) block.
+:::
 
-The routine that contains the feedback is `trial_feedback`. Click on `trial_feedback`.
+The routine that contains the feedback is `trial_feedback`. 
 
-See the `code` component. Click on it.
+![](images/feedback0.png){width="100%"}
+
+Click on `trial_feedback`.
+
+See the `code` component. 
+
+![](images/feedback00.png){width="100%"}
+
+Click on the `code` component..
 
 ![](images/feedback1.png){width="100%"}
 

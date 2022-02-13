@@ -1,9 +1,23 @@
 # Stimulus duration
 
+::: {.rmdnote}
 Increase the stimulus duration from 3 to 5 seconds.
+:::
 
-The routine that contains the stimulus is `trial`. Click on `trial`. See the TextBox called `word`. Click on `word` to bring up its properties. See that `duration` is set to 3.0 seconds.
+The routine that contains the stimulus is `trial`. 
+
+![](images/stimdur1.png){width="100%"}
+
+Click on `trial`. 
+
+See the TextBox called `word`. 
+
+![](images/stimdur2.png){width="100%"}
+
+Click on `word` to bring up its properties.
 
 ![](images/stimdur.png){width="100%"}
 
+See that `duration` is set to `3.0` seconds.
+ 
 To change the duration to 5 seconds, replace `3.0` with `5.0`

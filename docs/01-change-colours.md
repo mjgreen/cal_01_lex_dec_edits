@@ -1,6 +1,8 @@
 # Colours
 
+::: {.rmdnote}
 Change the screen colour to white, and the text colour to black, throughout the experiment.
+:::
 
 There are two things you need to do to accomplish this.
 
