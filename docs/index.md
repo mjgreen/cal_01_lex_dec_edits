@@ -2,7 +2,7 @@
 title: "CaL Lexical Decision Task Edits"
 subtitle: "for week 2"
 author: "the CaL Teaching Team"
-date: "Thursday 10 February 2022 at 22:35:08"
+date: "Sunday 13 February 2022 at 11:55:03"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -45,5 +45,4 @@ Make sure you have installed `PsychoPy` on your own computer from this link befo
   1. Change the screen colour to white, and the text colour to black, throughout the experiment
   2. Increase the stimulus duration from 3 to 5 seconds
   3. Turn off feedback in the experimental (but not the practice) block.
-  4. At the end, instead of having the participant press a key to end the experiment, make the experiment finish automatically after 2 seconds
 :::

@@ -4,4 +4,3 @@ change-the-screen-colour-to-white
 change-the-text-colour-to-black
 stimulus-duration
 feedback
-ending

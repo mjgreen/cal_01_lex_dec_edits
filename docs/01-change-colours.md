@@ -41,3 +41,5 @@ The `Appearance`tab is where you can specify properties of this particular text 
 ![](images/textComponent3.png){width="100%"}
 
 You need to go through all the routines looking for text boxes that currently display white text, and change them to display black text.
+
+Save the experiment.

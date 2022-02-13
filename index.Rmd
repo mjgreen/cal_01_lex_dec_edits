@@ -43,5 +43,4 @@ Make sure you have installed `PsychoPy` on your own computer from this link befo
   1. Change the screen colour to white, and the text colour to black, throughout the experiment
   2. Increase the stimulus duration from 3 to 5 seconds
   3. Turn off feedback in the experimental (but not the practice) block.
-  4. At the end, instead of having the participant press a key to end the experiment, make the experiment finish automatically after 2 seconds
 :::

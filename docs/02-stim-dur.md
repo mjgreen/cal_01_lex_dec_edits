@@ -2,3 +2,8 @@
 
 Increase the stimulus duration from 3 to 5 seconds.
 
+The routine that contains the stimulus is `trial`. Click on `trial`. See the TextBox called `word`. Click on `word` to bring up its properties. See that `duration` is set to 3.0 seconds.
+
+![](images/stimdur.png){width="100%"}
+
+To change the duration to 5 seconds, replace `3.0` with `5.0`
