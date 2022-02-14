@@ -4,17 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 4 Feedback | CaL Lexical Decision Task Edits</title>
+<title>Chapter 2 Stimulus duration | CaL Lexical Decision Task Edits</title>
 <meta name="author" content="the CaL Teaching Team">
-<meta name="description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
+<meta name="description" content="Increase the stimulus duration from 3 to 5 seconds.  2.1 Change the stimulus duration The routine that contains the stimulus is trial. Click on trial. See the TextBox called word. Click on word to...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 4 Feedback | CaL Lexical Decision Task Edits">
+<meta property="og:title" content="Chapter 2 Stimulus duration | CaL Lexical Decision Task Edits">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://cal20212022.github.io/cal_01_lex_dec_edits/feedback.html">
-<meta property="og:description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
+<meta property="og:url" content="https://cal20212022.github.io/cal_01_lex_dec_edits/stimdur.html">
+<meta property="og:description" content="Increase the stimulus duration from 3 to 5 seconds.  2.1 Change the stimulus duration The routine that contains the stimulus is trial. Click on trial. See the TextBox called word. Click on word to...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 4 Feedback | CaL Lexical Decision Task Edits">
-<meta name="twitter:description" content="Turn off feedback in the experimental (but not the practice) block.  4.1 Turn off feedback The routine that contains the feedback is trial_feedback. Click on trial_feedback. See the code...">
+<meta name="twitter:title" content="Chapter 2 Stimulus duration | CaL Lexical Decision Task Edits">
+<meta name="twitter:description" content="Increase the stimulus duration from 3 to 5 seconds.  2.1 Change the stimulus duration The routine that contains the stimulus is trial. Click on trial. See the TextBox called word. Click on word to...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -42,9 +42,9 @@
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
-<li><a class="" href="stimdur.html"><span class="header-section-number">2</span> Stimulus duration</a></li>
+<li><a class="active" href="stimdur.html"><span class="header-section-number">2</span> Stimulus duration</a></li>
 <li><a class="" href="colours.html"><span class="header-section-number">3</span> Colours</a></li>
-<li><a class="active" href="feedback.html"><span class="header-section-number">4</span> Feedback</a></li>
+<li><a class="" href="feedback.html"><span class="header-section-number">4</span> Feedback</a></li>
 </ul>
 
         <div class="book-extra">
@@ -52,41 +52,37 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="feedback" class="section level1" number="4">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="stimdur" class="section level1" number="2">
 <h1>
-<span class="header-section-number">4</span> Feedback<a class="anchor" aria-label="anchor" href="#feedback"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2</span> Stimulus duration<a class="anchor" aria-label="anchor" href="#stimdur"><i class="fas fa-link"></i></a>
 </h1>
 <div class="rmdnote">
-<p>Turn off feedback in the experimental (but not the practice) block.</p>
+<p>Increase the stimulus duration from 3 to 5 seconds.</p>
 </div>
-<div id="turn-off-feedback" class="section level2" number="4.1">
+<div id="change-the-stimulus-duration" class="section level2" number="2.1">
 <h2>
-<span class="header-section-number">4.1</span> Turn off feedback<a class="anchor" aria-label="anchor" href="#turn-off-feedback"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.1</span> Change the stimulus duration<a class="anchor" aria-label="anchor" href="#change-the-stimulus-duration"><i class="fas fa-link"></i></a>
 </h2>
-<p>The routine that contains the feedback is <code>trial_feedback</code>.</p>
-<div class="inline-figure"><img src="images/feedback0.png" style="width:100.0%"></div>
-<p>Click on <code>trial_feedback</code>.</p>
-<p>See the <code>code</code> component.</p>
-<div class="inline-figure"><img src="images/feedback00.png" style="width:100.0%"></div>
-<p>Click on the <code>code</code> component..</p>
-<div class="inline-figure"><img src="images/feedback1.png" style="width:100.0%"></div>
-<p>Put your cursor in the first line of the left hand side.</p>
-<p>Type:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="feedback.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> phase <span class="sc">==</span> <span class="st">"experimental"</span><span class="sc">:</span></span>
-<span id="cb2-2"><a href="feedback.html#cb2-2" aria-hidden="true" tabindex="-1"></a>   continueRoutine <span class="ot">=</span> False</span></code></pre></div>
-<p>So that the <code>code</code> component looks like this:</p>
-<div class="inline-figure"><img src="images/feedback2.png" style="width:100.0%"></div>
+<p>The routine that contains the stimulus is <code>trial</code>.</p>
+<div class="inline-figure"><img src="images/stimdur1.png" style="width:100.0%"></div>
+<p>Click on <code>trial</code>.</p>
+<p>See the TextBox called <code>word</code>.</p>
+<div class="inline-figure"><img src="images/stimdur2.png" style="width:100.0%"></div>
+<p>Click on <code>word</code> to bring up its properties.</p>
+<div class="inline-figure"><img src="images/stimdur.png" style="width:100.0%"></div>
+<p>See that <code>duration</code> is set to <code>3.0</code> seconds.</p>
+<p>To change the duration to 5 seconds, replace <code>3.0</code> with <code>5.0</code></p>
 </div>
-<div id="save-the-experiment-2" class="section level2" number="4.2">
+<div id="save-the-experiment" class="section level2" number="2.2">
 <h2>
-<span class="header-section-number">4.2</span> Save the experiment<a class="anchor" aria-label="anchor" href="#save-the-experiment-2"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.2</span> Save the experiment<a class="anchor" aria-label="anchor" href="#save-the-experiment"><i class="fas fa-link"></i></a>
 </h2>
 <p>Save the experiment.</p>
 <div class="inline-figure"><img src="images/save_button.png" style="width:100.0%"></div>
 </div>
-<div id="run-the-experiment-2" class="section level2" number="4.3">
+<div id="run-the-experiment" class="section level2" number="2.3">
 <h2>
-<span class="header-section-number">4.3</span> Run the experiment<a class="anchor" aria-label="anchor" href="#run-the-experiment-2"><i class="fas fa-link"></i></a>
+<span class="header-section-number">2.3</span> Run the experiment<a class="anchor" aria-label="anchor" href="#run-the-experiment"><i class="fas fa-link"></i></a>
 </h2>
 <p>Run the experiment to see whether your changes worked.</p>
 <p>You can press <code>escape</code> after a few trials if you don’t need to run the whole experiment.</p>
@@ -95,15 +91,15 @@
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="colours.html"><span class="header-section-number">3</span> Colours</a></div>
-<div class="empty"></div>
+<div class="prev"><a href="index.html"><span class="header-section-number">1</span> About</a></div>
+<div class="next"><a href="colours.html"><span class="header-section-number">3</span> Colours</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#feedback"><span class="header-section-number">4</span> Feedback</a></li>
-<li><a class="nav-link" href="#turn-off-feedback"><span class="header-section-number">4.1</span> Turn off feedback</a></li>
-<li><a class="nav-link" href="#save-the-experiment-2"><span class="header-section-number">4.2</span> Save the experiment</a></li>
-<li><a class="nav-link" href="#run-the-experiment-2"><span class="header-section-number">4.3</span> Run the experiment</a></li>
+<li><a class="nav-link" href="#stimdur"><span class="header-section-number">2</span> Stimulus duration</a></li>
+<li><a class="nav-link" href="#change-the-stimulus-duration"><span class="header-section-number">2.1</span> Change the stimulus duration</a></li>
+<li><a class="nav-link" href="#save-the-experiment"><span class="header-section-number">2.2</span> Save the experiment</a></li>
+<li><a class="nav-link" href="#run-the-experiment"><span class="header-section-number">2.3</span> Run the experiment</a></li>
 </ul>
 
       <div class="book-extra">

@@ -1,4 +1,4 @@
-# Stimulus duration
+# Stimulus duration {#stimdur}
 
 ::: {.rmdnote}
 Increase the stimulus duration from 3 to 5 seconds.

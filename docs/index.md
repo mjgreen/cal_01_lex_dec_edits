@@ -2,7 +2,7 @@
 title: "CaL Lexical Decision Task Edits"
 subtitle: "for week 2"
 author: "the CaL Teaching Team"
-date: "Sunday 13 February 2022 at 13:35:50"
+date: "Monday 14 February 2022 at 09:16:43"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -42,7 +42,7 @@ Make sure you have installed `PsychoPy` on your own computer from this link befo
 
 ::: {.rmdnote}
 * Complete the challenges, which are:
-  1. Change the screen colour to white, and the text colour to black, throughout the experiment
-  2. Increase the stimulus duration from 3 to 5 seconds
-  3. Turn off feedback in the experimental (but not the practice) block.
+  1. Increase the stimulus duration from 3 to 5 seconds - see Chapter \@ref(stimdur) for the solution
+  2. Change the screen colour to white, and the text colour to black, throughout the experiment- see Chapter \@ref(colours) for the solution
+  3. Turn off feedback in the experimental (but not the practice) block - see Chapter \@ref(feedback) for the solution
 :::
